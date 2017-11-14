@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <asp:Button ID="BUTTON_ReadJson" runat="server" Text="Leer JSON" OnClick="BUTTON_ReadJson_Click" />
+        <asp:Button ID="BUTTON_ReadJson" runat="server" Text="Leer JSON" OnClick="BUTTON_ReadJson_Click" BorderStyle="None" />
         <br />
         <asp:GridView ID="GridViewJson" runat="server"></asp:GridView>
     
